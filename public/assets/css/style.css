@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+  color: #294c65;  
+  background-color:#ffffff;
+  min-height: 10vh;
+}
+section{
+    min-height: 80vh;
+    background-color: #294c65;  
+    color:#ffffff;
+}
+footer{
+    min-height: 10vh;
+    background-color: #294c65;  
+  color:#ffffff;
+}
+.hover:hover{
+    cursor: pointer;
+}
+   
