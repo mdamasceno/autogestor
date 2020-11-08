@@ -16,7 +16,7 @@ class HomeController extends Controller
     /**
      * search
      *
-     * get clients informoations using api
+     * get clients informations using api
      * 
      * @param  mixed $request
      * @return void
