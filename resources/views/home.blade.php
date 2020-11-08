@@ -96,6 +96,6 @@ $(function(){
 @section('footer')
 <div class="d-flex flex-column justify-content-center align-items-center w-100">
     <label style="font-size:13px;margin-top:10px;">Desenvolvido por Marcos Damasceno</label>
-    <label style="font-size:10px;">Versão 1.0</label>
+    <label style="font-size:9px;">Versão 1.0</label>
 </div>
 @endsection

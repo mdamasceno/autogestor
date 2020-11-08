@@ -18,9 +18,6 @@ footer{
     background-color: #294c65;  
   color:#ffffff;
 }
-.hover:hover{
-    cursor: pointer;
-}
 @media only screen and (max-width:600px){
   h2{
     font-size: 1.5rem !important;
