@@ -4,9 +4,9 @@
 @endsection
 @section('section')
 <div class="d-flex justify-content-center align-items-center flex-column">
-    <h2 class="mt-5"><i class="fas fa-user-circle"></i> Consulta de Clientes</h2>
-    <div class="mt-3 d-flex justify-content-center align-items-center" style="width:100%;">
-        <form method="POST" class="d-flex" style="width:50%;" id="searchForm">
+    <h2 class="mt-4"><i class="fas fa-user-circle"></i> Consulta de Clientes</h2>
+    <div class="mt-3 d-flex justify-content-center align-items-center w-100">
+        <form method="POST" class="d-flex w-75" id="searchForm">
             @csrf
             <input name="search" class="form-control" style="border-radius:5px 0px 0px 5px;;border:none;" type="text" id="search" placeholder="Digite o nome">
             <select class="custom-select" style="border:none;border-radius:0px;" id="category">
@@ -18,7 +18,7 @@
             <button class="btn" style="color:#294c65;background-color:#fff;border-radius:0px 5px 5px 0px;"><i class="fa fa-search"></i></button>
         </form>        
     </div>
-    <div class="justify-content-between align-items-center flex-column mt-3" id="searchResults" style="width:50%;display:none;"> 
+    <div class="justify-content-between align-items-center flex-column mt-3 mb-3 w-75" id="searchResults" style="display:none;"> 
         <h5 id="results"></h5>                 
         <div class="table-responsive mt-1" style="background-color:#ffffff;border-radius:5px;padding:15px;">
             <table class="table" style="background-color:#ffffff;">
@@ -92,4 +92,10 @@ $(function(){
     });
 });
 </script>
+@endsection
+@section('footer')
+<div class="d-flex flex-column justify-content-center align-items-center w-100">
+    <label style="font-size:13px;margin-top:10px;">Desenvolvido por Marcos Damasceno</label>
+    <label style="font-size:10px;">Versão 1.0</label>
+</div>
 @endsection

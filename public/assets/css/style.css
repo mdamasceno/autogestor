@@ -11,6 +11,7 @@ section{
     min-height: 80vh;
     background-color: #294c65;  
     color:#ffffff;
+    overflow: auto;
 }
 footer{
     min-height: 10vh;
@@ -20,4 +21,18 @@ footer{
 .hover:hover{
     cursor: pointer;
 }
-   
+@media only screen and (max-width:600px){
+  h2{
+    font-size: 1.5rem !important;
+  }
+  img{
+    width:50%;
+  }
+  #searchForm{
+    flex-direction: column;
+  }
+  #searchForm input, #searchForm select, #searchForm button{
+    border-radius:5px !important;
+    margin-top:5px !important;
+  }
+}
